@@ -20,4 +20,4 @@ jobs:
       run: npm install
 
     - name: Notify Render for Deployment
-      run: 'curl -X POST https://api.render.com/webhooks/YOUR_RENDER_WEBHOOK_ID'
+      run: 'curl -X POST https://api.render.com/webhooks/WEB_HOOK_BE'
