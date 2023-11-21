@@ -20,5 +20,5 @@ jobs:
       run: npm install
 
     - name: Notify Render for Deployment
-      run: curl -X POST https://api.render.com/webhooks/${{ secrets.WEB_HOOK_FE }}
+      run: curl -X POST https://api.render.com/webhooks/${{ secrets.WEB_HOOK_BE }}
 
